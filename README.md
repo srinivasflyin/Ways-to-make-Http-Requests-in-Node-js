@@ -22,7 +22,7 @@ const request = require('request');
         console.log(body.explanation);
       });
 
-### For more Info https://www.npmjs.com/package/request
+For more Info https://www.npmjs.com/package/request
 
 ## Got module 
 Which is the third party NPM module to make the HTTP requests from the node.
@@ -49,7 +49,7 @@ const got = require('got');
 
 For more Info https://www.npmjs.com/package/got
 
-SuperAgent Module
+## SuperAgent Module
 
 Similarly to Axios, SuperAgent is another popular library primarily used for making AJAX requests in the browser but works in Node.js as well. Install SuperAgent with the following command:
 
@@ -71,7 +71,7 @@ const superagent = require('superagent');
 
 For more Info https://www.npmjs.com/package/superagent
 
-Axios Module
+## Axios Module
 
 Axios is a Promise based HTTP client for the browser as well as node.js. Using Promises is a great advantage when dealing with code that requires a more complicated chain of events.
 Writing asynchronous code can get confusing, and Promises are one of several solutions to this problem.
