@@ -54,7 +54,7 @@ For more Info https://www.npmjs.com/package/got
 Similarly to Axios, SuperAgent is another popular library primarily used for making AJAX requests in the browser but works in Node.js as well. Install SuperAgent with the following command:
 
 ```
-npm install superagent@3.5.2
+npm install superagent
 ```
 What is cool about SuperAgent is that you have other useful functions that you can chain onto requests such as query() to add parameters to the request.
 
@@ -78,7 +78,9 @@ Writing asynchronous code can get confusing, and Promises are one of several sol
 
 To install Axios from npm, enter the following command in your terminal:
 
+```
 npm install axios
+```
 
 The following code will accomplish the same task of logging the URL to and of explaining the astronomy picture of the day.
 
